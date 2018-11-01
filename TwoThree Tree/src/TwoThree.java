@@ -188,8 +188,8 @@ public class TwoThree extends Tree {
     //Function which traverses a tree and outputs the value
     @Override
     public void nodeTraversal(Nodes current) {
-        //Calls the function walks
-        walk(current);
+        //Calls the function which adds nodes to the Queue
+        addToQueue(current);
         //which then displays the values
         show();
 
@@ -258,38 +258,32 @@ public class TwoThree extends Tree {
 
     //Function which will display the values the tree
     private void show() {
-        while (!queue.isEmpty()) {
-            System.out.print(queue.dequeue() + " ");
-        }
+
+//        while (!queue.isEmpty()) {
+//            System.out.print(queue.dequeue() + " ");
+//        }
+
     }
 
-    //Function which will walk through the nodes with a preorder traversal and store the values in a queue structure
-    private void walk(Nodes current) {
+    //Function which will addToQueue through the nodes with a preorder traversal and store the values in a queue structure
+    private void addToQueue(Nodes current) {
 
-        //Getting all the data from one node
-        for (int i = 0; i < current.getLengthDataArray(); i++) {
+        theQueue.enqueue(current);
 
-            if (!current.check4Child(i))
-                //putting the data in a list
-                queue.enqueue(current.getData(i));
+        //Checks if the current nodes has a left child, if so then adds the child to theQueue
+        if (current.check4Child(leftChild)){
+            theQueue.enqueue(current.getChild(leftChild));
+
+            //Checks if there is a middle child
+            if (current.check4Child(middleChild)) {
+                theQueue.enqueue(current.getChild(middleChild));
+            }
+
+            //If there is a leftChild, there is a right child because of the 2-3 tree properties, so adds it to theQueue
+            theQueue.enqueue(current.getChild(rightChild));
         }
 
-        //Then walks to the left child
-        if (current.check4Child(leftChild)) {
-            nodeTraversal(current.getChild(leftChild));
-        }
-        //Walks to middle child
-        else if (current.check4Child(rightChild)) {
-            nodeTraversal(current.getChild(rightChild));
-        }
-        //Walks to right child then
-        else if (current.check4Child(middleChild)) {
-            nodeTraversal(current.getChild(middleChild));
-        }
-        //Finally returns when there are no children
-        else if (!current.check4Children()) {
-            return;
-        }
+
     }
 
     public static void main(String[] args) {

@@ -4,8 +4,10 @@ public abstract class Tree {
 
     //The first node in a tree -- all trees will have a root node
     protected Nodes Root = null;
+
     //Queue Data Structure
     protected myQueue queue = new myQueue();
+    protected queueForNodes theQueue = new queueForNodes();
     //Stats
     protected static int numComparisons = 0;
     protected static int numTreeNode = 0;

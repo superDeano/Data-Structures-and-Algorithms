@@ -6,6 +6,16 @@ public class Nodes {
     protected int numData = 0;
     protected int numChildren = 0;
 
+    public Nodes getNextNode() {
+        return nextNode;
+    }
+
+    public void setNextNode(Nodes nextNode) {
+        this.nextNode = nextNode;
+    }
+
+    protected Nodes nextNode = null;
+
     //The constructors for nodes
     Nodes() {
     }
@@ -151,9 +161,11 @@ public class Nodes {
 
     //Deletes Data
     public void deleteData(int index){
+
     if (data[index] != null){
         data[index] = null;
     }
+
     }
 
     public void deleteChild(int index){
@@ -169,5 +181,6 @@ public class Nodes {
     public int getLengthChildrenArray() {
         return children.length;
     }
+
 
 }

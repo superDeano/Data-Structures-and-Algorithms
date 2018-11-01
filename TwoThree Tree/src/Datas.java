@@ -1,6 +1,7 @@
 /*This is a class which stores data, enables one to set INT to null*/
 
-public class Datas {
+public class Datas
+{
 
     private int data;
     //Used for queue
