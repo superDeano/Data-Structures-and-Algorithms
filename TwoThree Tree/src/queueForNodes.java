@@ -21,7 +21,7 @@ public class queueForNodes {
     }
 
 
-    public Nodes dequeue() {
+    public static Nodes dequeue() {
         Nodes temp;
         temp = head;
         head = head.getNextNode();

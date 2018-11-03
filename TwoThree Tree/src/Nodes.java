@@ -98,7 +98,7 @@ public class Nodes {
 
 
     //Checks if a node has no children
-    public boolean check4Children() {
+    public boolean checksIfChildExists() {
 
         //Goes throughout the whole array
         for (int i = 0; i < children.length; i++) {
@@ -109,6 +109,23 @@ public class Nodes {
         }
         return false;
     }
+
+//    //Checks if there are no children at all
+//    public boolean checkForNoChildAtAll() {
+//        boolean thereIsNoChildren = true;
+//
+//        //Goes throughout the whole array
+//        for (int i = 0; i < children.length; i++) {
+//
+//            //Finds a child, returns true
+//            if (children[i] != null) {
+//            thereIsNoChildren = false;
+//            }
+//        }
+//        return thereIsNoChildren;
+//    }
+
+
 
     //Checks if a node has all data -- returns true is all data is true
     public boolean check4AllData() {
@@ -144,10 +161,10 @@ public class Nodes {
 
 
     //Getter for Datas
-    public int getData(int index) {
+    public Integer getData(int index) {
         if (data[index] != null) {
             return data[index].getData();
-        } else return -1;
+        } else return null;
     }
 
     //Setter for Datas

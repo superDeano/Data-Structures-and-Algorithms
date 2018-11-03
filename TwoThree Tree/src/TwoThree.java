@@ -8,12 +8,15 @@ public class TwoThree extends Tree {
     public static int firstData = 0;
     public static int secondData = 1;
 
+    queueForNodes queueForKnowledge = new queueForNodes();
 
     //Constructor
     TwoThree() {
         try {
+
             //For standard Two Three tree
             Root = new Nodes(2, 3);
+
             //New node created
             numTreeNode++;
         }
@@ -24,83 +27,17 @@ public class TwoThree extends Tree {
         }
     }
 
-
-    @Override
-    public void addNode(int valueToBeAdded) {
-
-        //Checks the node where the data is supposed to go and holds onto it
-        Nodes holder = findNode(Root, valueToBeAdded);
-
-        //The first node has no data at first and no children
-        if (holder.check4Data(firstData) == false && (!holder.check4Children())) {
-
-            holder.setData1(firstData, valueToBeAdded);
-
-        }
-
-        //if the node has only one data and no children
-        else if (holder.check4Data(firstData) && !holder.check4Children()) {
-
-            //if the value to be added is greater than the one already there
-            if (valueToBeAdded > holder.getData(firstData)) {
-                numComparisons++;
-                holder.setData1(secondData, valueToBeAdded);
-            }
-
-            //if the value being added is smaller than the one there
-            else {
-                //switches data
-                holder.setData1(secondData, holder.getData(firstData));
-
-                holder.setData1(firstData, valueToBeAdded);
-            }
-        }
-
-        //If the node has all data taken and no children
-        else if (!holder.check4AllData() && !holder.check4Children()) {
-            //calls funtion which will be promoting the nodes
-            promoteNode(holder, valueToBeAdded);
-        }
-
-        //The node is a child node, has no children and all its data are full
-        else if (!holder.check4Children() && holder.check4AllData() && holder.getParent() != null) {
-
-            //Checking if the value to be entered
-            if (holder.getData(leftChild) > valueToBeAdded && !holder.getParent().check4AllData()) {
-
-                numComparisons++;
-                holder.getParent().setData1(secondData, holder.getData(firstData));
-
-                holder.getParent().setChild(middleChild, new Nodes(2, 3, valueToBeAdded, holder.getParent()));
-                numTreeNode++;
-            }
-        }
-
-        //The node has full data and full children
-        else if (holder.check4AllData() && holder.check4Children()) {
-
-            //if a parent has all children and all data
-            if (holder.getParent().check4Children() && holder.getParent().check4AllData()) {
-                splitAndPromoteNodes(holder, valueToBeAdded);
-            }
-
-
-        }
-
-    }
-
-
     //Function which will go find a node where a value goes
     private static Nodes findNode(Nodes current, int value) {
 
         //Node with no data and no children
         //Also known as first case
-        if (!current.check4AllData() == !current.check4Children()) {
+        if (!current.check4AllData() == !current.checksIfChildExists()) {
             return current;
         }
 
         //One node with one data only and no children
-        else if (!current.check4Data(secondData) && !current.check4Children()) {
+        else if (!current.check4Data(secondData) && !current.checksIfChildExists()) {
             return current;
         }
 
@@ -108,7 +45,7 @@ public class TwoThree extends Tree {
         else if (value <= current.getData(firstData) && !current.check4Data(secondData)) {
             numComparisons++;
             //The node is a leaf node
-            if (!current.check4Children()) {
+            if (!current.checksIfChildExists()) {
                 //Can be added for second data
                 return current;
             }
@@ -137,6 +74,70 @@ public class TwoThree extends Tree {
         }
 
         return current;
+    }
+
+    @Override
+    public void addNode(int valueToBeAdded) {
+
+        //Checks the node where the data is supposed to go and holds onto it
+        Nodes holder = findNode(Root, valueToBeAdded);
+
+        //The first node has no data at first and no children
+        if (holder.check4Data(firstData) == false && (!holder.checksIfChildExists())) {
+
+            holder.setData1(firstData, valueToBeAdded);
+
+        }
+
+        //if the node has only one data and no children
+        else if (holder.check4Data(firstData) && !holder.checksIfChildExists()) {
+
+            //if the value to be added is greater than the one already there
+            if (valueToBeAdded > holder.getData(firstData)) {
+                numComparisons++;
+                holder.setData1(secondData, valueToBeAdded);
+            }
+
+            //if the value being added is smaller than the one there
+            else {
+                //switches data
+                holder.setData1(secondData, holder.getData(firstData));
+
+                holder.setData1(firstData, valueToBeAdded);
+            }
+        }
+
+        //If the node has all data taken and no children
+        else if (!holder.check4AllData() && !holder.checksIfChildExists()) {
+            //calls funtion which will be promoting the nodes
+            promoteNode(holder, valueToBeAdded);
+        }
+
+        //The node is a child node, has no children and all its data are full
+        else if (!holder.checksIfChildExists() && holder.check4AllData() && holder.getParent() != null) {
+
+            //Checking if the value to be entered
+            if (holder.getData(leftChild) > valueToBeAdded && !holder.getParent().check4AllData()) {
+
+                numComparisons++;
+                holder.getParent().setData1(secondData, holder.getData(firstData));
+
+                holder.getParent().setChild(middleChild, new Nodes(2, 3, valueToBeAdded, holder.getParent()));
+                numTreeNode++;
+            }
+        }
+
+        //The node has full data and full children
+        else if (holder.check4AllData() && holder.checksIfChildExists()) {
+
+            //if a parent has all children and all data
+            if (holder.getParent().checksIfChildExists() && holder.getParent().check4AllData()) {
+                splitAndPromoteNodes(holder, valueToBeAdded);
+            }
+
+
+        }
+
     }
 
     @Override
@@ -188,11 +189,17 @@ public class TwoThree extends Tree {
     //Function which traverses a tree and outputs the value
     @Override
     public void nodeTraversal(Nodes current) {
+
+        theQueue.enqueue(current);
+
         //Calls the function which adds nodes to the Queue
         addToQueue(current);
-        //which then displays the values
-        show();
 
+        //which then displays the values
+        getsTheDataConsecutively();
+
+        //Display the values
+        displayTheValues();
     }
 
 
@@ -256,34 +263,71 @@ public class TwoThree extends Tree {
 
     }
 
-    //Function which will display the values the tree
-    private void show() {
+    //Function which will get the values from the tree
+    private void getsTheDataConsecutively() {
 
-//        while (!queue.isEmpty()) {
-//            System.out.print(queue.dequeue() + " ");
-//        }
+        //Gets a Node from the Queue
+        Nodes tempNode = new Nodes();
+
+        do {
+            //Gets the node from the queue
+            tempNode = theQueue.dequeue();
+
+            //Getting the data from the node
+            for (int i = 0; i < tempNode.getLengthDataArray(); i++) {
+
+                //Checks the data is available
+                if (tempNode.check4Child(i)) {
+                    queue.enqueue(tempNode.getData(i));
+                } else {
+                    continue;
+                }
+
+            }
+            //Continues until the queue is empty
+        } while (!theQueue.isEmpty());
+
 
     }
 
     //Function which will addToQueue through the nodes with a preorder traversal and store the values in a queue structure
     private void addToQueue(Nodes current) {
 
-        theQueue.enqueue(current);
-
         //Checks if the current nodes has a left child, if so then adds the child to theQueue
-        if (current.check4Child(leftChild)){
+        if (current.check4Child(leftChild)) {
             theQueue.enqueue(current.getChild(leftChild));
+            //Used for self reference
+            queueForKnowledge.enqueue(current.getChild(leftChild));
 
             //Checks if there is a middle child
             if (current.check4Child(middleChild)) {
                 theQueue.enqueue(current.getChild(middleChild));
+                //Used for self reference
+                queueForKnowledge.enqueue(current.getChild(middleChild));
             }
 
             //If there is a leftChild, there is a right child because of the 2-3 tree properties, so adds it to theQueue
             theQueue.enqueue(current.getChild(rightChild));
+            //Used for self reference
+            queueForKnowledge.enqueue(current.getChild(rightChild));
         }
 
+        //No more Nodes in the queue
+        if (queueForKnowledge.isEmpty()) {
+            return;
+        } else {
+            //Calls the function again but this time at the new child node
+            addToQueue(queueForKnowledge.dequeue());
+        }
 
+    }
+
+    //Prints the values
+    private void displayTheValues() {
+
+        while (!queue.isEmpty()) {
+            System.out.print(queue.dequeue() + " ");
+        }
     }
 
     public static void main(String[] args) {
