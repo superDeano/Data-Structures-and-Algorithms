@@ -1,10 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb9518f1-38b8-4580-804d-3d3ea1bf7aee" name="Default" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
+    <list default="true" id="bb9518f1-38b8-4580-804d-3d3ea1bf7aee" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Insertion Sort/.idea/description.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/.idea/description.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Insertion Sort/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Insertion Sort/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Insertion Sort/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/.idea/project-template.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Insertion Sort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Insertion Sort/ASSIGNMENT 1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/ASSIGNMENT 1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/Issort/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/Issort/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort.xcodeproj/project.xcworkspace/xcuserdata/Deano.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort.xcodeproj/project.xcworkspace/xcuserdata/Deano.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort.xcodeproj/xcuserdata/Deano.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort.xcodeproj/xcuserdata/Deano.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort.xcodeproj/xcuserdata/Deano.xcuserdatad/xcschemes/testingInsertionSort.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort.xcodeproj/xcuserdata/Deano.xcuserdatad/xcschemes/testingInsertionSort.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort.xcodeproj/xcuserdata/Deano.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort.xcodeproj/xcuserdata/Deano.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort/ISSort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort/ISSort.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort/testInsertionSort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort/testInsertionSort.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Insertion Sort/out/production/ASSIGNMENT 1/A1Tester.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Insertion Sort/out/production/ASSIGNMENT 1/BinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Insertion Sort/out/production/ASSIGNMENT 1/ISSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Insertion Sort/out/production/ASSIGNMENT 1/ISort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Insertion Sort/out/production/ASSIGNMENT 1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Insertion Sort/out/production/ASSIGNMENT 1/textualResponses.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Insertion Sort/src/A1Tester.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/src/A1Tester.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Insertion Sort/src/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/src/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Insertion Sort/src/ISSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/src/ISSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Insertion Sort/src/ISort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/src/ISort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Insertion Sort/src/ISortDebugRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/src/ISortDebugRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Insertion Sort/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Insertion Sort/src/textualResponses.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/src/textualResponses.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASSIGNMENT 2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ASSIGNMENT 2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ASSIGNMENT 2/MergSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ASSIGNMENT 2/MergSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ASSIGNMENT 2/MergeDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ASSIGNMENT 2/MergeDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ARun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ARun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JumpList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JumpList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MergSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MergeDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StructuredMergSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuredMergSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/questions_ASS2-COEN352.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/questions_ASS2-COEN352.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/.idea/description.html" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/.idea/description.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/.idea/project-template.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/Assignment 3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/Assignment 3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/Assignment 3.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/Assignment 3.plantuml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/out/production/Assignment 3/Datas.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/out/production/Assignment 3/Datas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/out/production/Assignment 3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/out/production/Assignment 3/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/out/production/Assignment 3/Nodes.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/out/production/Assignment 3/Nodes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/out/production/Assignment 3/Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/out/production/Assignment 3/Tree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/out/production/Assignment 3/TwoThree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/out/production/Assignment 3/TwoThree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/out/production/Assignment 3/myQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/out/production/Assignment 3/myQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/out/production/Assignment 3/src.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/out/production/Assignment 3/src.plantuml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/src/.idea/.idea.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/src/.idea/.idea.plantuml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/src/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/src/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/src/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/src/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/src/.idea/src.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/src/.idea/src.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/src/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/src/Datas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/src/Datas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/src/Explanations.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/src/Explanations.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/src/Nodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/src/Nodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/src/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/src/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/src/TwoThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/src/TwoThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/src/myQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/src/myQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/src/queueForNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/src/queueForNodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/src/src.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/src/src.plantuml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,40 +87,6 @@
   <component name="FavoritesManager">
     <favorites_list name="ASSIGNMENT 2" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MergeDriver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MergeDriver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MergSort.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MergSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="44" column="95" selection-start-line="44" selection-start-column="90" selection-end-line="44" selection-end-column="95" />
-              <folding>
-                <element signature="method#merge#0;class#MergSort#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StructuredMergSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StructuredMergSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1425">
-              <caret line="95" column="95" selection-start-line="95" selection-start-column="95" selection-end-line="95" selection-end-column="95" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -54,60 +94,23 @@
       </list>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/MergeDriver.java" />
-        <option value="$PROJECT_DIR$/src/JumpList.java" />
-        <option value="$PROJECT_DIR$/src/ARun.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/MergSort.java" />
-        <option value="$PROJECT_DIR$/src/StructuredMergSort.java" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1344" />
-    <option name="height" value="830" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ASSIGNMENT 2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ASSIGNMENT 2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ASSIGNMENT 2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ASSIGNMENT 2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1RlBOcntd0BOGTwaVSMiUSiiVWq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -128,6 +131,9 @@
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
@@ -146,114 +152,52 @@
       <option name="presentableId" value="Default" />
       <updated>1531747026597</updated>
       <workItem from="1531747035273" duration="26881000" />
+      <workItem from="1570231775138" duration="1823000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26881000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1344" height="830" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32920793" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32920793" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.14132762" />
-      <window_info anchor="right" id="Database" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" weight="0.3298611" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39975247" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/MergeSort.java</url>
+          <line>6</line>
+          <properties class="MergeSort" method="split">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/MergeSort.java</url>
+          <line>44</line>
+          <properties class="MergeSort" method="getArray">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/MergeSort.java</url>
+          <line>18</line>
+          <properties class="MergeSort" method="merge">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ARun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-          <folding>
-            <element signature="e#97#98#0" expanded="true" />
-            <element signature="e#131#132#0" expanded="true" />
-            <element signature="e#94#95#0" expanded="true" />
-            <element signature="e#122#123#0" expanded="true" />
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JumpList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="e#2167#2168#0" expanded="true" />
-            <element signature="e#2200#2201#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MergeDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StructuredMergSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="95" column="95" selection-start-line="95" selection-start-column="95" selection-end-line="95" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MergSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="95" selection-start-line="44" selection-start-column="90" selection-end-line="44" selection-end-column="95" />
-          <folding>
-            <element signature="method#merge#0;class#MergSort#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
