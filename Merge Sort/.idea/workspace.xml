@@ -2,81 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb9518f1-38b8-4580-804d-3d3ea1bf7aee" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Insertion Sort/.idea/description.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/.idea/description.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Insertion Sort/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Insertion Sort/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Insertion Sort/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/.idea/project-template.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Insertion Sort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Insertion Sort/ASSIGNMENT 1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/ASSIGNMENT 1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/Issort/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/Issort/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort.xcodeproj/project.xcworkspace/xcuserdata/Deano.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort.xcodeproj/project.xcworkspace/xcuserdata/Deano.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort.xcodeproj/xcuserdata/Deano.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort.xcodeproj/xcuserdata/Deano.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort.xcodeproj/xcuserdata/Deano.xcuserdatad/xcschemes/testingInsertionSort.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort.xcodeproj/xcuserdata/Deano.xcuserdatad/xcschemes/testingInsertionSort.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort.xcodeproj/xcuserdata/Deano.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort.xcodeproj/xcuserdata/Deano.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort/ISSort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort/ISSort.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort/testInsertionSort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/TESTING-PERSO/testingInsertionSort/testingInsertionSort/testInsertionSort.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Insertion Sort/out/production/ASSIGNMENT 1/A1Tester.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Insertion Sort/out/production/ASSIGNMENT 1/BinarySearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Insertion Sort/out/production/ASSIGNMENT 1/ISSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Insertion Sort/out/production/ASSIGNMENT 1/ISort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Insertion Sort/out/production/ASSIGNMENT 1/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Insertion Sort/out/production/ASSIGNMENT 1/textualResponses.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Insertion Sort/src/A1Tester.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/src/A1Tester.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Insertion Sort/src/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/src/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Insertion Sort/src/ISSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/src/ISSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Insertion Sort/src/ISort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/src/ISort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Insertion Sort/src/ISortDebugRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/src/ISortDebugRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Insertion Sort/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Insertion Sort/src/textualResponses.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../Insertion Sort/src/textualResponses.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ASSIGNMENT 2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ASSIGNMENT 2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ASSIGNMENT 2/MergSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ASSIGNMENT 2/MergSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ASSIGNMENT 2/MergeDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ASSIGNMENT 2/MergeDriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ARun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ARun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JumpList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JumpList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MergSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MergeDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StructuredMergSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StructuredMergSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/questions_ASS2-COEN352.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/questions_ASS2-COEN352.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/.idea/description.html" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/.idea/description.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/.idea/project-template.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/Assignment 3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/Assignment 3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/Assignment 3.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/Assignment 3.plantuml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/out/production/Assignment 3/Datas.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/out/production/Assignment 3/Datas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/out/production/Assignment 3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/out/production/Assignment 3/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/out/production/Assignment 3/Nodes.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/out/production/Assignment 3/Nodes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/out/production/Assignment 3/Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/out/production/Assignment 3/Tree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/out/production/Assignment 3/TwoThree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/out/production/Assignment 3/TwoThree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/out/production/Assignment 3/myQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/out/production/Assignment 3/myQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/out/production/Assignment 3/src.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/out/production/Assignment 3/src.plantuml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/src/.idea/.idea.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/src/.idea/.idea.plantuml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/src/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/src/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/src/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/src/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/src/.idea/src.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/src/.idea/src.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/src/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/src/Datas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/src/Datas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/src/Explanations.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/src/Explanations.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/src/Nodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/src/Nodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/src/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/src/Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/src/TwoThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/src/TwoThree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/src/myQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/src/myQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/src/queueForNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/src/queueForNodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoThree Tree/src/src.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoThree Tree/src/src.plantuml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ASSIGNMENT 2/ARun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ASSIGNMENT 2/JumpList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ASSIGNMENT 2/MergSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ASSIGNMENT 2/MergeDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ASSIGNMENT 2/StructuredMergSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ASSIGNMENT 2/questions_ASS2-COEN352.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,6 +43,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -152,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1531747026597</updated>
       <workItem from="1531747035273" duration="26881000" />
-      <workItem from="1570231775138" duration="1823000" />
+      <workItem from="1570231775138" duration="5756000" />
     </task>
     <servers />
   </component>
@@ -169,35 +102,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/MergeSort.java</url>
-          <line>6</line>
-          <properties class="MergeSort" method="split">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/MergeSort.java</url>
-          <line>44</line>
-          <properties class="MergeSort" method="getArray">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/MergeSort.java</url>
-          <line>18</line>
-          <properties class="MergeSort" method="merge">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
